@@ -71,4 +71,47 @@ position: absolute;
     width: 100%;
     background-color: rgba(131,119,122,0.281);
 }
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right:-54%;
+    top: -6%;
+    transform-origin: 0% 0%;
+    /* width: 100% ; */
+   /* background-color: rebeccapurple; */
+    /*
+    transition: rotate(90deg);
+    right: 5%;
 
+*/}
+
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 15px;
+  
+    font-family: monument;
+     -webkit-text-stroke-width:2px ;
+     -webkit-text-stroke-color: #fff;
+     color: transparent;
+    
+}
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    left: 5%;
+    top: 5%;
+    
+}
+#nav img{
+    height: 60px;
+}
+
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family:golory ;
+}
